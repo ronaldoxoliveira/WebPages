@@ -9,59 +9,72 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 80%;
-    height: 60%;
+  body{
+    background-color: black;
   }
+ .carousel-inner img {
+  margin: auto;
+ }
+ h1{
+   color: blanchedalmond;
+ }
   </style>
 </head>
 <body>
-
-<div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-    <li data-target="#demo" data-slide-to="3"></li>
-  </ul>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="imgs/logincoop.png" alt="Los Angeles" width="1100" height="500">
-      <div class="carousel-caption">
-        <h3>Prefil de acesso</h3>
-        <p>Cada usuário tem um perfil de acesso.</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="imgs/formcadcoop.png" alt="Chicago" width="1100" height="500">
-      <div class="carousel-caption">
-        <h3>Formulário do associado</h3>
-        <p>Formulário personalizado</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="imgs/reportscoop.png" alt="New York" width="1100" height="500">
-      <div class="carousel-caption">
-        <h3>Relatórios gerenciais</h3>
-        <p>Todos os resultados e indicadores da entidade</p>
-      </div>   
-    </div>
-    <div class="carousel-item">
-      <img src="imgs/guiascoop.png" alt="New York" width="1100" height="500">
-      <div class="carousel-caption">
-        <h3>Convênios e guias</h3>
-        <p>Emissão e controle de guias</p>
-      </div>   
-    </div>
+  <div class="fixed-top bg-warning text-dark" >
+    <h1 class="text-center">COOPERADOR - SISTEMA PARA GESTÃO ENTIDADES E CONVÊNVIOS MÉDICOS</h1>
   </div>
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-</div>
+  <p>&nbsp;</p>
 
+  <div class="row justify-content-center">                   
+          <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imgs/logincoop.png" alt="Los Angeles" class="img-fluid">
+                <div class="carousel-caption">
+                  <h3>Controle de acesso</h3>
+                  <p>Cada usuário tem um perfil de acesso e as atividade são registradas.<br/>
+                  Assim as atividades dos usuáros são monitoradas.</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/formcadcoop.png" alt="Chicago" class="img-fluid">
+                <div class="carousel-caption">
+                  <h3>Formulário do associado</h3>
+                 <p>Dados cadastrais dos filiados com uma ficha completa e personalizada.</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/reportscoop.png" alt="New York" class="img-fluid">
+                <div class="carousel-caption">
+                  <h3>Relatórios gerenciais</h3>
+                  <p>Os resultados e indicadores da entidade. Arrecadação siape, bancos.</p>
+                </div>   
+              </div>
+              <div class="carousel-item">
+                <img src="imgs/guiascoop.png" alt="New York" class="img-fluid">
+                <div class="carousel-caption">
+                  <h3>Convênios e guias</h3>
+                  <p>Emissão e controle de guias</p>
+                </div>   
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+  </div>
+  <div class="fixed-bottom">
+    <p class="text-center">Contatos para falar sobre o Cooperador: (61) 98611-5565</p>
+  </div>
 </body>
 </html>
